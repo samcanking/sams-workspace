@@ -1,0 +1,11 @@
+---
+notion-id: 24ddd034-25a1-804f-af03-c01147e014ae
+---
+| **TASK NAME** | **CATEGORY** | **TASK ASSIGNMENT - EVENT** | **TASK ASSIGNMENT - CONDITIONS** | **ASSIGN TO** | **ASSIGN TO - DUE** | **ADDTL SETTINGS: VIEW DETAILS** | **ADDTL SETTINGS: RATES ACCESS** | **TASK CONTENT - INSTRUCTIONS** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Custom Task] | Onboarding | ON Hire Date | Include rehires = TRUE<br>Include transfers = FALSE<br>All others = FALSE/NULL | Employee | +2 days after assigned | Employee = TRUE<br>Manager-level employees = TRUE<br>Company admins = TRUE<br>Organization admins = TRUE and INACTIVE | NO | [Empty] |
+| Form I-9 | Onboarding | ON Hire Date | Include rehires = TRUE<br>Include transfers = FALSE<br>All others = FALSE/NULL | Assignee 1: Employee<br><br>Assignee 2: [Empty] | Assignee 1: 0 days after assignment<br><br>Assignee 2: 1 day after assignment | Employee = TRUE<br>Manager-level employees = TRUE<br>Company admins = TRUE<br>Organization admins = TRUE and INACTIVE | NO | TBC |
+| Equal Employment Opportunity (EEO) Self-Identify Survey | Onboarding | ON Hire Date | Include rehires = TRUE<br>Include transfers = FALSE<br>All others = FALSE/NULL | Employee | +2 days after assigned | Employee = TRUE<br>Manager-level employees = TRUE<br>Company admins = TRUE<br>Organization admins = TRUE and INACTIVE | NO | TBC |
+| Direct Deposit Authorization | Onboarding | ON Hire Date | Include rehires = TRUE<br>Include transfers = FALSE<br>All others = FALSE/NULL | Employee | +2 days after assigned | Employee = TRUE<br>Manager-level employees = TRUE<br>Company admins = TRUE<br>Organization admins = TRUE and INACTIVE | NO | TBC |
+| State/Federal Tax Forms | Onboarding | ON Hire Date | Include rehires = TRUE<br>Include transfers = FALSE<br>All others = FALSE/NULL | Employee | +2 days after assigned | Employee = TRUE<br>Manager-level employees = TRUE<br>Company admins = TRUE<br>Organization admins = TRUE and INACTIVE | NO | TBC |
+| Employee Emergency Contact Information | Onboarding | ON Hire Date | Include rehires = TRUE<br>Include transfers = FALSE<br>All others = FALSE/NULL | Employee | +2 days after assigned | Employee = TRUE<br>Manager-level employees = TRUE<br>Company admins = TRUE<br>Organization admins = TRUE and INACTIVE | NO | TBC |

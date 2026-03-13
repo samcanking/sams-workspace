@@ -1,0 +1,36 @@
+---
+notion-id: 24ddd034-25a1-8026-af5f-c5444434b664
+---
+As the Tasks & Workflows project evolves, it is important to establish a shared terminology to ensure perfect alignment and clarity on what certain terms mean. 
+
+The following is a list of frequently used or relevant terms which may be helpful to have outlined accordingly. 
+
+| Task Definition | What an administrator configures to create a new task and set up all the relevant settings which drive task creation, assignment, approval, etc. |
+| --- | --- |
+| Task Assignment | The specific instance of a task, following the rules/settings configured in the Task Definition, assigned to user(s) for completion |
+| Form Definition | What an administrator configures to create a new Form, including uploading the document, adding fields for users to fill out, identifying Form Recipient Roles and mapping any pre-filled fields |
+| Form Assignment | The specific instance of a Form, accessible via a Task Assignment, which a recipient fills out/signs |
+| Form Pre-Filled Field(s) | Specific fields sourced from various places on the Employee Profile which may be mapped to a Form Definition such that when a Form Assignment is created, it will automatically fill in the relevant data (i.e., Employee First Name, Employee Position, etc.)  |
+| Request Workflow(s) | Specific Tasks which function to allow users to request updates to certain Employee information. These differ from other workflows in that they are built and defined by Netchex (cannot be customized) and include Effective Date capability. <br>Currently this includes the Position/Compensation Change Request and the Employee Information Change Request Tasks.  |
+| Onboarding Workflow(s) | Specific Tasks which function to be assigned to designated users, frequently the Employee themself. Different from Request Workflows, Onboarding Workflows may be pre-built by Netchex (EEO, I-9, etc.) or they may be Custom.  |
+| Initial Reviewer | A specific Approver Role which is only available for Request Workflows. This privileged role must be assigned to an Approver Group which is entirely made up of named Administrators as they, unlike other Approvers, may make edits to the Request details.  |
+| (Form) Recipient(s) | A Form component which allows users to identify which group(s) of people must complete a Form, and assign specific fields to specific roles. The roles themselves are identified as part of completing the Setup for an Onboarding Workflow.  |
+| Event | The event or trigger which acts as the signal to the system to generate a specific Task Assignment. |
+| Manual Task | Task Definitions with a Manual Event type only generate a Task Assignment when a user requests it be created via the front end |
+| Event: Dependent Task | Task Definitions with Dependent Event logic only generate a Task Assignment when a preceding Task Assignment or Task Assignment(s) have been completed (all steps of the Task Workflow are completed and/or approved) |
+| Event: Milestone | Task Definitions with Milestone Event logic only generate a Task Assignment relative to a specific “Milestone Event” occurs in the Target Employee’s lifecycle. Examples include Hire Date, Position Start Date, Rehire Date, etc. |
+| Milestone Anniversary | Task Definitions with Milestone Anniversary Event logic only generate a Task Assignment relative to a designated anniversary (Annual, Quarterly, etc.) of an Employee Milestone occurs. Example: Annual Hire Date Anniversary, Quarterly Position Start Date Anniversary |
+| Event: Date | Task Definitions with Date Event logic only generate at Task Assignment relative to a specific calendar date. Date Triggers may be one-time or reoccurring. |
+| Task Category | A Task Definition attribute which drives certain reporting, notification and visibility functionality in Netchex. The Task Category options are pre-defined and non-configurable. |
+| Task Target Employee (Employee) | The specific Netchex Employee who the Task Assignment is being completed on behalf of. Any Task Assignments which are meant to update Employee information affect the Target Employee. The Target Employee may or may not be part of the Task Workflow. |
+| Task Workflow | Configured as part of the Task Definition, the Task Workflow outlines who the Task Assignments are to be completed by (Task Assignee(s)) and/or approved by (Task Approver(s)). The Task Workflow may be simple (i.e., one Assignee) or may include numerous steps. The Task Workflow may name specific Employees or may name certain Assignee/Approver Types (i.e., Position, Relationship) |
+| Task Assignee (Assign To) | The first step of the Task Workflow, Task Assignee must complete the Task Assignment directives in order to complete a Task Assignment. Task Assignees may be specific Employees or an Assignee Type. Request Workflows do not have Task Assignees.  |
+| Approver Group(s) | The secondary step(s) of the Task Workflow, Task Approver Group(s) review and approve or reject a Task Assignment in order to complete a Task Assignment. Task Approver Groups are globally configured and referenced in Task Definitions and may be customized at the company-level. Task Approver(s) may be specific individuals or additional approver types.  |
+| Task Assignment Conditions | By default, Task Definitions apply to all employees in a given organization. Task Assignment Conditions are used to limit who the Target Employee(s) are, based on certain data about an employee. Examples include Company, Department, Position, Location, Age, etc. |
+| Task Types | Task Types are used to guide users to create Task Definitions in order to achieve the Task Directive. A Task Definition may only have one Task Type. Task Types may be Form or Custom-built. Request Workflows do not have Task Types.  |
+| Form Task Type | A specific Task Type which allows administrators to designate a Form which must be completed by the Task Assignee(s) |
+| Custom-built Task Type | A specific Task Type which allows administrators to build a form experience for the Task Assignee, including custom questions and different question types (short response, long response, multiple choice, etc.). Custom-built Task Type Tasks may only have one Assignee.  |
+| Netchex Pre-Built Task | Specific Tasks which represent the pre-configured forms Netchex designs to support certain key use cases (i.e., Form I-9, Position/Compensation Change Request, etc.). This type allows for additional field mapping not supported by other Task Types. Some Task Components may not be configurable in a Pre-Defined Task vs a custom Task.  |
+| Task Notification(s) | Configurable notification settings so designated users receive alerts during certain events in a Task Workflow. |
+| Position-Based Task Assignment | A Task Assignment (either Assignee or Approver(s)) which is not a named individual, but rather a reference to a company’s Positions. One or many people may hold the same position, but only one individual must fulfill the assignment role for a given Task. |
+| Relationship-Based Task Assignment | A Task Assignment (either Assignee or Approver(s)) which is not a named individual, but rather a relational connection to the Task’s Target Employee (i.e., Primary Manager, Requestor’s Skip-Level Manager) |

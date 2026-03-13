@@ -1,0 +1,31 @@
+# Forms Custom Fields Data Dictionary
+
+filters:
+  and:
+    - note["base"] == link("Forms Custom Fields Data Dictionary.base")
+properties:
+  file.name:
+    displayName: Field Name
+  Click Path:
+    displayName: Click Path
+  Sensitive?:
+    displayName: Sensitive?
+  Priority:
+    displayName: Priority
+  NC Form(s) (If Applicable):
+    displayName: NC Form(s) (If Applicable)
+  INPUT/OUTPUT:
+    displayName: INPUT/OUTPUT
+  Relationship:
+    displayName: Relationship
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Click Path
+      - Sensitive?
+      - Priority
+      - NC Form(s) (If Applicable)
+      - INPUT/OUTPUT
+      - Relationship
