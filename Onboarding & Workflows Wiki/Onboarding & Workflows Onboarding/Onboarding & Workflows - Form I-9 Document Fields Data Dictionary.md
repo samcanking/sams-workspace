@@ -5,7 +5,7 @@ The most up to date list of acceptable documents may be found by viewing the cur
 
 The below details utilize the 01/20/2025 Form I-9 Edition, which is set to expire on 05/31/2027
 
-The “Issuing Authority” column is only filled out for forms which have a universal issuing authority (Netchex will prepopulate) 
+The “Issuing Authority” column is only filled out for forms which have a universal issuing authority (SamTech will prepopulate) 
 
 The Document Number column includes any notes on required formatting. If the column is blank, enforce an ALPHANUMERIC format with a character limit of 50 characters
 
